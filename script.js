@@ -184,9 +184,5 @@ menuItems.forEach(item => {
         
         // Tambah class active ke menu yang diklik
         this.classList.add('active');
-        
-        // Tampilkan pesan (nanti bisa diganti dengan load halaman lain)
-        const menuName = this.textContent.trim();
-        alert('Anda mengklik menu: ' + menuName);
-    });
+
 });
